@@ -70,6 +70,7 @@ namespace Mirror
                     if (GUILayout.Button("Host (Server + Client)"))
                     {
                         manager.StartHost();
+                        print("Starting Server");
                     }
                 }
 
